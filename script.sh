@@ -14,7 +14,7 @@ fi
 
 ls -l 
 
-if [$? -ne 0 ]; then
+if [ $? -ne 0 ]; then
     echo "ls command is failure"
     exit 1
     else
