@@ -11,9 +11,3 @@ fi
 
 
 echo "hello world"
-
-
-
-
-
-
