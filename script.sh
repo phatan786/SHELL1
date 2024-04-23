@@ -18,9 +18,14 @@ fi
 
 
 
+SUCCESS () {
+if [ $1 -ne 0 ]; then
+   echo "ls is failure"
+   exit 1
+   else
+   echo " ls is success"
 
-
-
+}
 
 
 
@@ -29,5 +34,8 @@ fi
 
 #root user validation
 VALIDATE $ID 
+
+ls -l
+SUCCESS $?
 
 
