@@ -13,15 +13,16 @@ if [ $1 -ne 0 ]; then
      echo "you are root user u can continue the script"
 fi
 
-if [ $2 -ne 0 ]; then
+}
+
+#if [ $2 -ne 0 ]; then
      echo "$3 is failure"
      exit 1
      else
      echo "$3 is success"
-fi
+#fi
 
 
-}
 
 
 
@@ -32,5 +33,4 @@ fi
 #root user validation
 VALIDATE $ID
 
-ls -l
-VALIDATE $? lscommand
+
