@@ -2,12 +2,15 @@
 
 read -p "please enter the name:"  name
 
-if [ $name != vasim ]; then
-       echo "eneterd name is not vasim u cannot continue to script"
+if [ -z "$name" ]; then
+       echo "input is not provided please provide the input"
        exit 1
        else
-       echo "entered name is vasim u can continue the script"
-      
-fi
+       echo "input is provided u can continue the script"
+
+      fi
 
 echo "hello world"
+
+echo "hi"
+
