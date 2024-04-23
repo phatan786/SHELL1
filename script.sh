@@ -6,7 +6,7 @@ ID=$(id -u)
 
 VALIDATE () {
 
-if [ $ID -ne 0 ]; then
+if [ $1 -ne 0 ]; then
      echo "you are not root user u cannot continue the script"
      exit 1
      else
@@ -28,6 +28,6 @@ fi
 
 
 #root user validation
-VALIDATE 
+VALIDATE $ID 
 
 
