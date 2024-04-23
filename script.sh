@@ -1,5 +1,6 @@
 #!/bin/bash
-NAME=vasim
+
+read -p "please enter the name : " name
 
 
-echo "my name is $NAME"
+echo "my name is $name"
