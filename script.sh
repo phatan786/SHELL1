@@ -1,24 +1,13 @@
 #!/bin/bash
 
-a=$1
-b=$2
-SCRIPTNAME=$0
-TOTALARG=$*
-TOTALARGG=$@
-NUMBEROFARG=$#
+a=10
 
+if [ $a -gt 10 ]; then
+       echo "script is sucess"
+       else
+       echo "script is failure"
+fi
 
-
-
-echo " my script anmes is $SCRIPTNAME"
-
-echo "a+b =$(($a+$b))"
-
-echo "total arg passed is $TOTALARG"
-
-echo "total arg passed is $TOTALARGG"
-
-echo "total number of args is $NUMBEROFARG"
 
 
 
