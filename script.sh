@@ -9,5 +9,4 @@ if [ $name == vasim ]; then
        exit 1
 fi
 
-
 echo "hello world"
