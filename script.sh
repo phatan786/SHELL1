@@ -1,6 +1,6 @@
 #!/bin/bash
 
-a=10
+read -p "enter value of a :"  a
 
 if [ $a -gt 10 ]; then
        echo "script is sucess"
