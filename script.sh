@@ -20,10 +20,10 @@ fi
 
 SUCCESS () {
 if [ $1 -ne 0 ]; then
-   echo "ls is failure"
+   echo "$2 is failure"
    exit 1
    else
-   echo " ls is success"
+   echo " $2 is success"
 fi
 }
 
@@ -33,7 +33,7 @@ fi
 #root user validation
 VALIDATE $ID 
 
-ls -l
-SUCCESS $?
+ls -l 
+SUCCESS $? ls
 
 
