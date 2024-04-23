@@ -2,10 +2,11 @@
 
 read -p "enter value of a :"  a
 
-if [ $a -eq 10 ]; then
+if [ $a -ge 10 ]; then
        echo "script is sucess"
        else
        echo "script is failure"
+       exit 1
 fi
 
 
