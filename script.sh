@@ -13,10 +13,6 @@ if [ $1 -ne 0 ]; then
      echo "you are root user u can continue the script"
 fi
 
-}
-
-VALIDATE () {
-
 if [ $2 -ne 0 ]; then
      echo "$3 is failure"
      exit 1
@@ -24,7 +20,12 @@ if [ $2 -ne 0 ]; then
      echo "$3 is success"
 fi
 
+
 }
+
+
+
+
 
 
 
