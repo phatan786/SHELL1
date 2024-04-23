@@ -1,8 +1,8 @@
 #!/bin/bash
 
-read -p "enter value of a :"  a
+read -p "please enter the name:"  name
 
-if [ $a -ge 10 ]; then
+if [ $name == vasim ]; then
        echo "script is sucess"
        else
        echo "script is failure"
