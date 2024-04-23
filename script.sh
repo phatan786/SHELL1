@@ -1,16 +1,12 @@
+
 #!/bin/bash
 
-read -p "please enter the name:"  name
+ID=$(id -u)
 
-if [ -z "$name" ]; then
-       echo "input is not provided please provide the input"
-       exit 1
-       else
-       echo "input is provided u can continue the script"
 
-      fi
-
-echo "hello world"
-
-echo "hi"
-
+if [ $ID -ne 0 ]; then
+     echo "you are not root user u cannot continue the script"
+     exit 1
+     else
+     echo "you are root user u can continue the script"
+fi
