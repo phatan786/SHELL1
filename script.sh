@@ -2,7 +2,7 @@
 
 name=vasim
 
-echo "hi my name is $name"
+echo -e  "\e[31mhi my name is $name"
 
 
 
