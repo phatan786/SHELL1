@@ -1,12 +1,12 @@
 #!/bin/bash
 
 
-read -p "please enter name :" name
+read -p "please provide the input " input
 
-if [ $name != vasim ]; then
-   echo "condition is true u can run the script"
+if [ -z $input ]; then
+   echo "inpuyt has been provided u can continue the script"
    else
-   echo "condition is false u cannot run the script"
+   echo "input has not been provided u cannot continue the script"
    exit 1
 fi
 
