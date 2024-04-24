@@ -1,12 +1,9 @@
 #!/bin/bash
 
+a=(10 20)
 
-names=(vasim santosh)
-
-echo "my name is ${names[$1]}"
-
-echo "my friend name is ${names[$2]}"
-
+echo "value of a1 =${a[$1]}"
+echo "value of a2 =${a[$2]}"
 
 
 
