@@ -8,6 +8,10 @@ if [ $name == vasim ]; then
 fi
 
 
+echo " my name is vasim"
+
+
+
 
 
 
