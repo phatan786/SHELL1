@@ -1,8 +1,8 @@
 #!/bin/bash
 
-name=vasim
+read -p "plaese enter the name : " name
 
-echo -e  "\e[31mhi\t\e[32mmyname is \n\e[33m$name\e[0m"
+echo "my name is $name"
 
 
 
