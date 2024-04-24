@@ -2,7 +2,7 @@
 
 name=vasim
 
-echo -e  "\e[31mhi\tmyname is \n$name\e[0m"
+echo -e  "\e[31mhi\t\e[32mmyname is \n\e[33m$name\e[0m"
 
 
 
