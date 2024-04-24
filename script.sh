@@ -1,9 +1,10 @@
 #!/bin/bash
 
-a=10
-b=20
 
-echo "a+b=$(($a+$b))"
+names=(vasim santosh sai)
+
+echo "my name is $[names{$0}]"
+echo "my friend name is $[names{$1}]
 
 
 
