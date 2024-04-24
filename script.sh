@@ -1,10 +1,23 @@
 #!/bin/bash
 
-read -p "plaese enter the name : " name
-read -sp "pleae enter the password : " pass
+#before execution
+
+
+name=$1
+fn=$2
+to=$@
+too=$*
+tooo=$#
+
 
 echo "my name is $name"
-echo "my password is $pass"
+
+echo "my friend name is $fn"
+
+echo  "total varaibles is $to $too"
+
+echo "total number of varaibles is $tooo"
+
 
 
 
