@@ -1,12 +1,12 @@
 #!/bin/bash
 
 
-read -p "please enter value : " value
+read -p "please enter name :" name
 
-if [ $value -eq 10 ]; then
-   echo "entered value is equal to 10"
+if [ $name != vasim ]; then
+   echo "condition is true u can run the script"
    else
-   echo "entered value is not equal to 10"
+   echo "condition is false u cannot run the script"
    exit 1
 fi
 
