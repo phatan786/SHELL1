@@ -1,9 +1,11 @@
 #!/bin/bash
 
-a=(10 20)
 
-echo "value of a1 =${a[0]}"
-echo "value of a2 =${a[1]}"
+read -p "please enter name : " name
+
+if [ $name == vasim ]; then
+   echo "script is success"
+fi
 
 
 
