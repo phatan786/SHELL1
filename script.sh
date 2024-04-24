@@ -2,7 +2,7 @@
 
 name=vasim
 
-echo -e  "\e[31mhi my name is $name"
+echo -e  "\e[31mhi my name is $name\e[om"
 
 
 echo "my name is santosh"
