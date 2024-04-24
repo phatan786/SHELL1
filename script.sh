@@ -1,8 +1,10 @@
 #!/bin/bash
 
-ID=$(id -u)
+a=10
+b=20
 
-echo "login user id is $ID"
+echo "a+b=$(($a+$b))"
+
 
 
 
